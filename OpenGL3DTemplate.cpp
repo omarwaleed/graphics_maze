@@ -1,6 +1,13 @@
 #include "TextureBuilder.h"
 #include <glut.h>
 
+double eye_x = 1.0;
+double eye_y = 10.0;
+double eye_z = 20.0;
+double center_x = 0.0;
+double center_y = 0.0;
+double center_z = 0.0;
+
 int xStart[11];
 int zStart[11];
 int xEnd[11];
@@ -339,7 +346,8 @@ void Key(unsigned char key, int x, int y)
 {
 	switch(key)
 	{
-	case 'w':
+	case 'w': eye_y++; printf("%d\n", eye_y); break;
+	case 's': eye_y -= 0.1; break;
 	}
 }
 
@@ -365,7 +373,7 @@ int main(int argc, char** argv) {
 
 	glMatrixMode(GL_MODELVIEW);
 	glLoadIdentity();
-	gluLookAt(0.0f, 10.0f, 20.0f, 0.0f, 0.0f, 0.0f, 0.0f, 1.0f, 0.0f);
+	gluLookAt(eye_x, eye_y, eye_z, center_x, center_y, center_z, 0.0f, 1.0f, 0.0f);
 
 	glEnable(GL_DEPTH_TEST);
 	glEnable(GL_LIGHTING);
