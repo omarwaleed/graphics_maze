@@ -344,10 +344,9 @@ void Anim()
 
 void Key(unsigned char key, int x, int y)
 {
-	switch(key)
+	if (key == 'w')
 	{
-	case 'w': eye_y++; printf("%d\n", eye_y); break;
-	case 's': eye_y -= 0.1; break;
+		eye_y += 0.1;
 	}
 }
 
