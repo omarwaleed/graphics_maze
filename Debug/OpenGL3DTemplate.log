@@ -1,21 +1,23 @@
-﻿Build started 11-Dec-15 2:34:07 AM.
-     1>Project "C:\Users\Omar Waleed\Downloads\OpenGL3DTemplate_19080\OpenGL3DTemplate\OpenGL3DTemplate.vcxproj" on node 2 (build target(s)).
+﻿Build started 11-Dec-15 4:41:35 PM.
+     1>Project "C:\Omar's folder\University stuff\graphics_maze\OpenGL3DTemplate.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
          Creating "Debug\OpenGL3DTemplate.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
-         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\Omar Waleed\Downloads\OpenGL3DTemplate_19080\OpenGL3DTemplate\Debug\\.." /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt OpenGL3DTemplate.cpp
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Omar's folder\University stuff\graphics_maze\Debug\\.." /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt OpenGL3DTemplate.cpp
          OpenGL3DTemplate.cpp
+     1>c:\omar's folder\university stuff\graphics_maze\texturebuilder.h(27): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\omar's folder\university stuff\graphics_maze\texturebuilder.h(28): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
        Link:
-         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Omar Waleed\Downloads\OpenGL3DTemplate_19080\OpenGL3DTemplate\Debug\OpenGL3DTemplate.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Users\Omar Waleed\Downloads\OpenGL3DTemplate_19080\OpenGL3DTemplate\Debug\\.." glut32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\OpenGL3DTemplate.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Omar Waleed\Downloads\OpenGL3DTemplate_19080\OpenGL3DTemplate\Debug\OpenGL3DTemplate.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Omar Waleed\Downloads\OpenGL3DTemplate_19080\OpenGL3DTemplate\Debug\OpenGL3DTemplate.lib" /MACHINE:X86 Debug\OpenGL3DTemplate.obj
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Omar's folder\University stuff\graphics_maze\Debug\OpenGL3DTemplate.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Omar's folder\University stuff\graphics_maze\Debug\\.." glut32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\OpenGL3DTemplate.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Omar's folder\University stuff\graphics_maze\Debug\OpenGL3DTemplate.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Omar's folder\University stuff\graphics_maze\Debug\OpenGL3DTemplate.lib" /MACHINE:X86 Debug\OpenGL3DTemplate.obj
      1>OpenGL3DTemplate.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
-         OpenGL3DTemplate.vcxproj -> C:\Users\Omar Waleed\Downloads\OpenGL3DTemplate_19080\OpenGL3DTemplate\Debug\OpenGL3DTemplate.exe
+         OpenGL3DTemplate.vcxproj -> C:\Omar's folder\University stuff\graphics_maze\Debug\OpenGL3DTemplate.exe
        Manifest:
-         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Omar Waleed\Downloads\OpenGL3DTemplate_19080\OpenGL3DTemplate\Debug\OpenGL3DTemplate.exe;#1" /manifest Debug\OpenGL3DTemplate.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Omar's folder\University stuff\graphics_maze\Debug\OpenGL3DTemplate.exe;#1" /manifest Debug\OpenGL3DTemplate.exe.intermediate.manifest
        FinalizeBuildStatus:
          Deleting file "Debug\OpenGL3DTemplate.unsuccessfulbuild".
          Touching "Debug\OpenGL3DTemplate.lastbuildstate".
-     1>Done Building Project "C:\Users\Omar Waleed\Downloads\OpenGL3DTemplate_19080\OpenGL3DTemplate\OpenGL3DTemplate.vcxproj" (build target(s)).
+     1>Done Building Project "C:\Omar's folder\University stuff\graphics_maze\OpenGL3DTemplate.vcxproj" (build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:01.14
+Time Elapsed 00:00:14.46
